@@ -1,0 +1,42 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: work sans, sans-serif;
+}
+
+.main {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 0 0 80%; /*stay 80% of the screen*/
+}
+
+#wybierz {
+
+color: rgb(79, 55, 167);
+outline: none;
+background: #f4f4f4;
+font-size: 1.3rem;
+padding: 0.2 rem;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+#wybierz:hover {
+    color: rgb(58, 46, 230);
+}
+
+blockquote {
+    background: #c7c1c1;
+    border-left: 2px solid rgb(77, 92, 221);
+
+}
+
+#autor {
+    color: rgb(44, 44, 40);
+}
+
