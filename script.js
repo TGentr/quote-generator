@@ -46,8 +46,7 @@ const quotes = [
 }
 ]
 
-//co potrzebujemy, zmienne
-//przycisk
+//zmienne
 
 const buttonn = document.querySelector("#wybierz");
 const quotee = document.querySelector("#quote");
@@ -56,7 +55,7 @@ buttonn.addEventListener('click', pokazuj);
 
 function pokazuj (){
 
-//pick random number from array
+// random number from array
 
 let rande = Math.floor(Math.random()*quotes.length);
 console.log(rande);
@@ -65,7 +64,7 @@ console.log(rande);
 //quotee.innerHTML = `${quotes[1].quote}`;
 //quotee.innerHTML = `${quotes[rande].quote}`;
 
-//why both rande the same? beats me
+
 quotee.innerHTML = quotes[rande].quote;
 autor.innerHTML = quotes[rande].name;
 
